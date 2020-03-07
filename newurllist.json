@@ -1,28 +1,96 @@
 [
   {
+    "site": "btsow",
     "url": "https://btsow.club",
+    "paths": {
+      "preset": "/search/{k}/page/{p}"
+    },
+    "group": "//div[@class='row']",
+    "magnet": "./a/@href",
+    "name": "./a/div[1]",
+    "size": "./div[1]",
+    "date": "./div[2]",
+    "detail": {
+      "files": "//div[@class=\"detail data-list\"]/div/text()"
+    },
     "type": 1
   },
-
   {
+    "site": "alibt",
     "url": "https://alibt.pw",
+    "paths": {
+      "preset": "/zh-cn/s/{p}/{k}"
+    },
+    "group": "//*[@id=\"wrapper\"]/ul/li",
+    "magnet": "./p[1]/a/@href",
+    "name": "./p[1]/a",
+    "size": "./p[2]/span[2]",
+    "date": "./p[2]/span[1]",
     "type": 2
   },
-  
   {
+    "site": "cilibao",
     "url": "http://www.clb.biz",
+    "paths": {
+      "time": "/s/{k}_time_{p}.html",
+      "size": "/s/{k}_size_{p}.html",
+      "preset": "/s/{k}.html"
+    },
+    "group": "//div[@class='search-item']",
+    "magnet": "./div[1]/h3[1]/a[1]/@href",
+    "name": "./div[1]/h3[1]/a[1]",
+    "size": "./div[3]/span[3]/b[1]",
+    "date": "./div[3]/span[2]/b[1]",
+    "hot": "./div[3]/span[4]/b[1]",
     "type": 3
   },
   {
+    "site": "idope",
+    "group": "//div[@class=\"resultdiv\"]",
+    "magnet": "./div[1]/a/@href",
+    "name": "./div[1]/a",
+    "size": "./div[2]/div[3]/div[2]",
+    "date": "./div[2]/div[2]/div[2]",
     "url": "https://idope.se",
+    "paths": {
+      "preset": "/torrent-list/%s/?p=%d",
+      "size": "/torrent-list/%s/?p=%d&o=-2"
+    },
+    "detail": {
+      "files": "//div[@class=\"filetag\"]"
+    },
     "type": 4
   },
   {
+    "site": "btdb",
     "url": "https://btdb.io",
+    "paths": {
+      "time": "?s={k}&sort=time&page={p}",
+      "preset": "?s={k}&page={p}",
+      "size": "?s={k}&sort=length&page={p}"
+    },
+    "group": "//div[@class=\"media\"]",
+    "name": "./div[1]/ul[1]/li[1]/h2/a",
+    "magnet": "./div[2]/a/@href",
+    "size": "./div[1]/ul[1]/li[1]/div[1]/small[1]",
+    "date": "./div[1]/ul[1]/li[1]/div[1]/small[5]",
     "type": 5
   },
   {
+    "site": "btdad",
     "url": "http://www.btdad.bid",
+    "paths": {
+      "preset": "/search-{k}-0-0-{p}.html",
+      "size": "/search-{k}-0-1-{p}.html",
+      "time": "/search-{k}-0-2-{p}.html"
+    },
+    "group": "//div[@class='ssbox']",
+    "magnet": "./div[2]/span[1]/a[1]/@href",
+    "name": "./div[1]/h3[1]/a[1]",
+    "size": "./div[2]/span[3]/b[1]",
+    "date": "./div[2]/span[4]/b[1]",
+    "hot": "./div[2]/span[5]/b[1]",
     "type": 6
   }
+
 ]
