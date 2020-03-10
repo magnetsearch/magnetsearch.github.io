@@ -30,7 +30,7 @@
   },
   {
     "site": "cilibao",
-    "url": "http://cilibao.biz/",
+    "url": "http://cilibao.biz",
     "paths": {
       "time": "/s/{k}_time_{p}.html",
       "size": "/s/{k}_size_{p}.html",
