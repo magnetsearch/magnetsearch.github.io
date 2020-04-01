@@ -16,19 +16,6 @@
     "type": 1
   },
   {
-    "site": "alibt",
-    "url": "https://alibt.pw",
-    "paths": {
-      "preset": "/zh-cn/s/{p}/{k}"
-    },
-    "group": "//*[@id=\"wrapper\"]/ul/li",
-    "magnet": "./p[1]/a/@href",
-    "name": "./p[1]/a",
-    "size": "./p[2]/span[2]",
-    "date": "./p[2]/span[1]",
-    "type": 2
-  },
-  {
     "site": "cilibao",
     "url": "http://cilibao.biz",
     "paths": {
