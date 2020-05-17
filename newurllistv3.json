@@ -49,21 +49,6 @@
     "type": 4
   },
   {
-    "site": "btdb",
-    "url": "https://btdb.io",
-    "paths": {
-      "time": "?s={k}&sort=time&page={p}",
-      "preset": "?s={k}&page={p}",
-      "size": "?s={k}&sort=length&page={p}"
-    },
-    "group": "//div[@class=\"media\"]",
-    "name": "./div[1]/ul[1]/li[1]/h2/a",
-    "magnet": "./div[2]/a/@href",
-    "size": "./div[1]/ul[1]/li[1]/div[1]/small[1]",
-    "date": "./div[1]/ul[1]/li[1]/div[1]/small[5]",
-    "type": 5
-  },
-  {
     "site": "btdad",
     "url": "http://www.btdad.buzz",
     "paths": {
