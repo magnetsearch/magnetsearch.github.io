@@ -50,7 +50,7 @@
   },
   {
     "site": "btdad",
-    "url": "http://www.btdad.buzz",
+    "url": "http://www.btdad.cloud",
     "paths": {
       "preset": "/search-{k}-0-0-{p}.html",
       "size": "/search-{k}-0-1-{p}.html",
