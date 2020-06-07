@@ -1,0 +1,110 @@
+[
+  {
+    "site": "btsow",
+    "url": "https://bteve.com",
+    "paths": {
+      "preset": "/search/{k}/page/{p}"
+    },
+    "group": "//div[@class='row']",
+    "magnet": "./a/@href",
+    "name": "./a/div[1]",
+    "size": "./div[1]",
+    "date": "./div[2]",
+    "detail": {
+      "files": "//div[@class=\"detail data-list\"]/div/text()"
+    },
+    "type": 1
+  },
+  {
+    "site": "alibt",
+    "url": "https://alibt.pw",
+    "paths": {
+      "preset": "/zh-cn/s/{p}/{k}"
+    },
+    "group": "//*[@id=\"wrapper\"]/ul/li",
+    "magnet": "./p[1]/a/@href",
+    "name": "./p[1]/a",
+    "size": "./p[2]/span[2]",
+    "date": "./p[2]/span[1]",
+    "type": 2
+  },
+  {
+    "site": "cilibao",
+    "url": "http://cilibao.biz",
+    "paths": {
+      "time": "/s/{k}_time_{p}.html",
+      "size": "/s/{k}_size_{p}.html",
+      "preset": "/s/{k}.html"
+    },
+    "group": "//div[@class='search-item']",
+    "magnet": "./div[1]/h3[1]/a[1]/@href",
+    "name": "./div[1]/h3[1]/a[1]",
+    "size": "./div[3]/span[3]/b[1]",
+    "date": "./div[3]/span[2]/b[1]",
+    "hot": "./div[3]/span[4]/b[1]",
+    "type": 3
+  },
+  {
+    "site": "idope",
+    "group": "//div[@class=\"resultdiv\"]",
+    "magnet": "./div[1]/a/@href",
+    "name": "./div[1]/a",
+    "size": "./div[2]/div[3]/div[2]",
+    "date": "./div[2]/div[2]/div[2]",
+    "url": "https://idope.se",
+    "paths": {
+      "preset": "/torrent-list/%s/?p=%d",
+      "size": "/torrent-list/%s/?p=%d&o=-2"
+    },
+    "detail": {
+      "files": "//div[@class=\"filetag\"]"
+    },
+    "type": 4
+  },
+  {
+    "site": "btdad",
+    "url": "http://www.btdad.site",
+    "paths": {
+      "preset": "/search-{k}-0-0-{p}.html",
+      "size": "/search-{k}-0-1-{p}.html",
+      "time": "/search-{k}-0-2-{p}.html"
+    },
+    "group": "//div[@class='ssbox']",
+    "magnet": "./div[2]/span[1]/a[1]/@href",
+    "name": "./div[1]/h3[1]/a[1]",
+    "size": "./div[2]/span[3]/b[1]",
+    "date": "./div[2]/span[4]/b[1]",
+    "hot": "./div[2]/span[5]/b[1]",
+    "type": 6
+  },
+  {
+    "site": "zooqle",
+    "url": "https://zooqle.com",
+    "paths": {
+      "preset": "/search?pg={p}&q={k}&v=t"
+    },
+    "group": "//div[@class='panel-body']/table[1]/tbody/tr",
+    "magnet": "./td[3]/ul/li[2]/a/@href",
+    "name": "./td[2]/a",
+    "size": ".//td[4]/div/div",
+    "date": "./td[5]",
+    "type": 7
+  },
+  {
+    "site": "TheBay",
+    "url": "https://thepiratebay10.org",
+    "paths": {
+      "preset": "/search/{k}/{p}/7/",
+      "time": "/search/{k}/{p}/3/",
+      "size": "/search/{k}/{p}/5/",
+      "hot": "/search/{k}/{p}/9/"
+    },
+    "group": "//table[@id='searchResult']/tbody/tr",
+    "magnet": "./td[2]/a[1]/@href",
+    "name": "./td[2]/div/a",
+    "size": "./td[2]/font/text()",
+    "date": "./td[2]/font/text()",
+    "hot": "./td[4]",
+    "type": 8
+  }
+]
