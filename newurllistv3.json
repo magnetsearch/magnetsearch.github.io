@@ -17,7 +17,7 @@
   },
   {
     "site": "cilibao",
-    "url": "http://cilibao.biz",
+    "url": "http://cilibao.me",
     "paths": {
       "time": "/s/{k}_time_{p}.html",
       "size": "/s/{k}_size_{p}.html",
@@ -50,7 +50,7 @@
   },
   {
     "site": "btdad",
-    "url": "http://www.btdad.cloud",
+    "url": "http://www.btdad.shop",
     "paths": {
       "preset": "/search-{k}-0-0-{p}.html",
       "size": "/search-{k}-0-1-{p}.html",
