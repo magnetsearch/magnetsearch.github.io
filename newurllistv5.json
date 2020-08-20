@@ -29,22 +29,6 @@
     "type": 2
   },
   {
-    "site": "cilibao",
-    "url": "http://cilibao.me",
-    "paths": {
-      "time": "/s/{k}_time_{p}.html",
-      "size": "/s/{k}_size_{p}.html",
-      "preset": "/s/{k}.html"
-    },
-    "group": "//div[@class='search-item']",
-    "magnet": "./div[1]/h3[1]/a[1]/@href",
-    "name": "./div[1]/h3[1]/a[1]",
-    "size": "./div[3]/span[3]/b[1]",
-    "date": "./div[3]/span[2]/b[1]",
-    "hot": "./div[3]/span[4]/b[1]",
-    "type": 3
-  },
-  {
     "site": "idope",
     "group": "//div[@class=\"resultdiv\"]",
     "magnet": "./div[1]/a/@href",
