@@ -43,7 +43,7 @@
     "date": "./div[3]/span[2]/b[1]",
     "hot": "./div[3]/span[4]/b[1]",
     "type": 3
-  },  
+  },
   {
     "site": "idope",
     "group": "//div[@class=\"resultdiv\"]",
@@ -64,7 +64,7 @@
   },
   {
     "site": "btdad",
-    "url": "http://www.btdad.shop",
+    "url": "http://bt.btdad.live",
     "paths": {
       "preset": "/search-{k}-0-0-{p}.html",
       "size": "/search-{k}-0-1-{p}.html",
@@ -127,5 +127,21 @@
       "hot": "?q=%s&s=downloads&o=desc"
     },
     "type": 9
-}
+  },
+  {
+    "site": "ZhongZiSo",
+    "group": "//table[@class='table table-bordered table-striped']",
+    "magnet": "./tbody/tr[1]/td/div/h4/a/@href",
+    "name": "./tbody/tr[1]/td/div/h4/a",
+    "size": "./tbody/tr/td[2]/strong",
+    "date": "./tbody/tr/td[1]/strong",
+    "hot": "./tbody/tr[2]/td[3]/strong",
+    "url": "https://www.zhongzilou.com",
+    "paths": {
+      "time": "/list/%s/%d",
+      "size": "/list_length/%s/%d",
+      "hot": "/list_click/%s/%d"
+    },
+    "type": 10
+  }
 ]
