@@ -65,7 +65,7 @@
   },
   {
     "site": "btdad",
-    "url": "http://www.btdad.shop",
+    "url": "http://bt.btdad.live",
     "paths": {
       "preset": "/search-{k}-0-0-{p}.html",
       "size": "/search-{k}-0-1-{p}.html",
