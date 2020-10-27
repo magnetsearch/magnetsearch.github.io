@@ -49,22 +49,6 @@
     "type": 4
   },
   {
-    "site": "btdad",
-    "url": "http://bt.btdad.live",
-    "paths": {
-      "preset": "/search-{k}-0-0-{p}.html",
-      "size": "/search-{k}-0-1-{p}.html",
-      "time": "/search-{k}-0-2-{p}.html"
-    },
-    "group": "//div[@class='ssbox']",
-    "magnet": "./div[2]/span[1]/a[1]/@href",
-    "name": "./div[1]/h3[1]/a[1]",
-    "size": "./div[2]/span[3]/b[1]",
-    "date": "./div[2]/span[4]/b[1]",
-    "hot": "./div[2]/span[5]/b[1]",
-    "type": 6
-  },
-  {
     "site": "zooqle",
     "url": "https://zooqle.com",
     "paths": {
