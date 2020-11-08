@@ -146,26 +146,8 @@
     "pageSize" : 10
   },
   {
-    "site": "extratorrent",
-    "group": "//tr[@class='tlr']",
-    "magnet": "./td[1]/a[2]/@href",
-    "name": "./td[3]/a",
-    "size": "./td[5]",
-    "date": "./td[4]",
-    "hot": "./td[6]",
-    "url": "https://extratorrent.si",
-    "paths": {
-      "preset": "/search/?page={p}&search={k}&srt=added",
-      "size": "/search/?page={p}&search={k}&srt=size&order=desc"
-    },
-    "seeders": "./td[6]",
-    "leechers": "./td[7]",
-    "type": 12,
-    "pageSize" : 15
-  },
-  {
     "site": "bt4g",
-    "url": "https://bt4g.proxyit.ga",
+    "url": "https://bt4g.unblockit.app",
     "paths": {
       "preset": "/search/{k}/{p}",
       "time": "/search/{k}/{p}",
