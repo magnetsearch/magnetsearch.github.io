@@ -97,22 +97,6 @@
     "type": 8
   },
   {
-    "site": "Nyaa",
-    "url": "https://nyaa.si",
-    "group": "//div[@class='table-responsive']/table/tbody/tr",
-    "magnet": "./td[3]/a[2]/@href",
-    "name": "./td[2]/a",
-    "size": "./td[4]",
-    "date": "./td[5]",
-    "hot": "./td[8]",
-    "paths": {
-      "time": "?q=%s&p=%d",
-      "size": "?q=%s&s=size&o=desc",
-      "hot": "?q=%s&s=downloads&o=desc"
-    },
-    "type": 9
-  },
-  {
     "site": "ZhongZiSo",
     "group": "//table[@class='table table-bordered table-striped']",
     "magnet": "./tbody/tr[1]/td/div/h4/a/@href",
