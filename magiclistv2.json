@@ -163,5 +163,20 @@
     "date": "./div[2]/span[3]",
     "type": 14,
     "pageSize":10
-  }    
+  },
+  {
+    "site": "bthub",
+    "url": "https://bthub.xyz",
+    "paths": {
+      "preset": "/cn/search/kw-{k}-{p}.html"
+    },
+    "group": "//div[@class='search-item detail-width']",
+    "magnet": "./div[3]/span[5]/a/@href",
+    "name": "./div[1]/h3/a",
+    "size": "./div[3]/span[3]/b",
+    "date": "./div[3]/span[2]/b",
+    "hot": "./div[3]/span[4]/b",
+    "type": 15,
+    "pageSize":20
+  }   
 ]
