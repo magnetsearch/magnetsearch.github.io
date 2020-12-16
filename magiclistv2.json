@@ -166,23 +166,5 @@
     "date": "./div[2]/span[3]",
     "type": 14,
     "pageSize":10
-  },  
-
- {
-    "site": "torrentz",
-    "url": "https://torrentz.com",
-    "paths": {
-      "preset": "/search?f={k}&p={p}"
-    },
-    "group": "//div[@class='results']/dl",
-    "magnet": "./dt/a/@href",
-    "name": "./dt/a",
-    "size": "./dd/span[3]",
-    "hot": "./dd/span[4]",
-    "date": "./dd/span[2]",
-    "seeders": "./dd/span[4]",
-    "leechers": "./dd/span[5]",
-    "type": 15,
-    "pageSize":50
-  }  
+  }
 ]
