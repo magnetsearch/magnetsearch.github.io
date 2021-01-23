@@ -16,6 +16,25 @@
     "type": 1
   },
   {
+    "site": "mix",
+    "url": "http://magsch.com",
+    "paths": {
+      "preset": "torrent?q={k}&cat=all&inc_wout_cat=1&exc_adult_res=0"
+    },
+    "group": "//div[@class='results']/dl",
+    "magnet": "./dt/a/@href",
+    "name": "./dt/a",
+    "size": "./dd/span[3]",
+    "hot": "./dd/span[4]",
+    "date": "./dd/span[2]",
+    "seeders": "./dd/span[4]",
+    "leechers": "./dd/span[5]",
+    "type": 16,
+    "pageSize":100,
+    "searchUrl":"https://torrz.techpeg.in",
+    "isMix":true
+  },
+  {
     "site": "cilibao",
     "url": "http://clb0.org",
     "paths": {
@@ -30,24 +49,6 @@
     "date": "./div[3]/span[2]/b[1]",
     "hot": "./div[3]/span[4]/b[1]",
     "type": 3
-  },
-  {
-    "site": "idope",
-    "group": "//div[@class=\"resultdiv\"]",
-    "magnet": "./div[1]/a/@href",
-    "name": "./div[1]/a",
-    "size": "./div[2]/div[3]/div[2]",
-    "date": "./div[2]/div[2]/div[2]",
-    "seeders": "./div[2]/div[4]/div[2]",
-    "url": "https://idope.se",
-    "paths": {
-      "preset": "/torrent-list/%s/?p=%d",
-      "size": "/torrent-list/%s/?p=%d&o=-2"
-    },
-    "detail": {
-      "files": "//div[@class=\"filetag\"]"
-    },
-    "type": 4
   },
   {
     "site": "zooqle",
@@ -166,24 +167,5 @@
     "date": "./div[2]/span[3]",
     "type": 14,
     "pageSize":10
-  },
-  {
-    "site": "mix",
-    "url": "http://magsch.com",
-    "paths": {
-      "preset": "torrent?q={k}&cat=all&inc_wout_cat=1&exc_adult_res=0"
-    },
-    "group": "//div[@class='results']/dl",
-    "magnet": "./dt/a/@href",
-    "name": "./dt/a",
-    "size": "./dd/span[3]",
-    "hot": "./dd/span[4]",
-    "date": "./dd/span[2]",
-    "seeders": "./dd/span[4]",
-    "leechers": "./dd/span[5]",
-    "type": 16,
-    "pageSize":100,
-    "searchUrl":"https://torrz.techpeg.in",
-    "isMix":true
   }
 ]
