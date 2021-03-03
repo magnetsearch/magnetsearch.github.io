@@ -17,7 +17,7 @@
   },
   {
     "site": "cilibao",
-    "url": "http://clb0.org",
+    "url": "http://clb.biz",
     "paths": {
       "time": "/s/{k}_time_{p}.html",
       "size": "/s/{k}_size_{p}.html",
