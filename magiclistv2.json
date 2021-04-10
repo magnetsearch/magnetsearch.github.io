@@ -1,7 +1,7 @@
 [
   {
     "site": "btsow",
-    "url": "https://btsow.cam",
+    "url": "https://btsow.digital",
     "paths": {
       "preset": "/search/{k}/page/{p}"
     },
@@ -17,7 +17,7 @@
   },
   {
     "site": "mix",
-    "url": "https://btsow.digital",
+    "url": "http://magsch.com",
     "paths": {
       "preset": "torrent?q={k}&cat=all&inc_wout_cat=1&exc_adult_res=0"
     },
