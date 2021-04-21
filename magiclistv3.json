@@ -1,0 +1,172 @@
+[
+    {
+      "site": "btsow",
+      "url": "https://btsow.digital",
+      "paths": {
+        "preset": "/search/{k}/page/{p}"
+      },
+      "group": "//div[@class='row']",
+      "magnet": "./a/@href",
+      "name": "./a/div[1]",
+      "size": "./div[1]",
+      "date": "./div[2]",
+      "detail": {
+        "files": "//div[@class=\"detail data-list\"]/div/text()"
+      },
+      "type": 1
+    },
+    {
+      "site": "mix",
+      "url": "http://magsch.com",
+      "paths": {
+        "preset": "torrent?q={k}&cat=all&inc_wout_cat=1&exc_adult_res=0"
+      },
+      "group": "//div[@class='results']/dl",
+      "magnet": "./dt/a/@href",
+      "name": "./dt/a",
+      "size": "./dd/span[3]",
+      "hot": "./dd/span[4]",
+      "date": "./dd/span[2]",
+      "seeders": "./dd/span[4]",
+      "leechers": "./dd/span[5]",
+      "type": 16,
+      "pageSize":100,
+      "searchUrl":"https://torrzapp.techpeg.in",
+      "isMix":true
+    },
+    {
+      "site": "cilibao",
+      "url": "http://clb0.info",
+      "paths": {
+        "time": "/s/{k}_time_{p}.html",
+        "size": "/s/{k}_size_{p}.html",
+        "preset": "/s/{k}.html"
+      },
+      "group": "//div[@class='search-item']",
+      "magnet": "./div[1]/h3[1]/a[1]/@href",
+      "name": "./div[1]/h3[1]/a[1]",
+      "size": "./div[3]/span[3]/b[1]",
+      "date": "./div[3]/span[2]/b[1]",
+      "hot": "./div[3]/span[4]/b[1]",
+      "type": 3
+    },
+    {
+      "site": "zooqle",
+      "url": "https://zooqle.com",
+      "paths": {
+        "preset": "/search?pg={p}&q={k}&v=t"
+      },
+      "group": "//div[@class='panel-body']/table[1]/tbody/tr",
+      "magnet": "./td[3]/ul/li[2]/a/@href",
+      "name": "./td[2]/a",
+      "size": ".//td[4]/div/div",
+      "date": "./td[5]",
+      "seeders": "./td[6]/div/div[1]",
+      "leechers": "./td[6]/div/div[2]",
+      "type": 7
+    },
+    {
+      "site": "TheBay",
+      "url": "https://thepiratebay10.org",
+      "paths": {
+        "preset": "/search/{k}/{p}/7/",
+        "time": "/search/{k}/{p}/3/",
+        "size": "/search/{k}/{p}/5/",
+        "hot": "/search/{k}/{p}/9/"
+      },
+      "group": "//table[@id='searchResult']/tbody/tr",
+      "magnet": "./td[2]/a[1]/@href",
+      "name": "./td[2]/div/a",
+      "size": "./td[2]/font/text()",
+      "date": "./td[2]/font/text()",
+      "hot": "./td[4]",
+      "seeders": "./td[3]",
+      "leechers": "./td[4]",
+      "type": 8
+    },
+    {
+      "site": "Nyaa",
+      "url": "https://nyaa.si",
+      "group": "//div[@class='table-responsive']/table/tbody/tr",
+      "magnet": "./td[3]/a[2]/@href",
+      "name": "./td[2]/a",
+      "size": "./td[4]",
+      "date": "./td[5]",
+      "hot": "./td[8]",
+      "paths": {
+        "time": "?q=%s&p=%d",
+        "size": "?q=%s&s=size&o=desc",
+        "hot": "?q=%s&s=downloads&o=desc"
+      },
+      "type": 9
+    },
+    {
+      "site": "ZhongZiSo",
+      "group": "//table[@class='table table-bordered table-striped']",
+      "magnet": "./tbody/tr[1]/td/div/h4/a/@href",
+      "name": "./tbody/tr[1]/td/div/h4/a",
+      "size": "./tbody/tr/td[2]/strong",
+      "date": "./tbody/tr/td[1]/strong",
+      "hot": "./tbody/tr[2]/td[3]/strong",
+      "url": "https://www.zhongzilou.com",
+      "paths": {
+        "time": "/list/%s/%d",
+        "size": "/list_length/%s/%d",
+        "hot": "/list_click/%s/%d"
+      },
+      "type": 10
+    },
+    { 
+      "site": "clzz",
+      "url": "http://www.eclzz.club",
+      "paths": {
+        "preset": "/s/{k}_rel_{p}.html",
+        "time": "/s/{k}_time_{p}.html",
+        "size": "/s/{k}_size_{p}.html"
+      },
+      "group": "//div[@class='search-item']",
+      "magnet": "./div[1]/h3[1]/a[1]/@href",
+      "name": "./div[1]/h3[1]/a[1]",
+      "size": "./div[3]/span[3]/b[1]",
+      "date": "./div[3]/span[2]/b[1]",
+      "hot": "./div[3]/span[4]/b[1]",
+      "type": 11,
+      "pageSize" : 10
+    },
+    {
+      "site": "bt4g",
+      "url": "https://bt4g.unblockit.app",
+      "paths": {
+        "preset": "/search/{k}/{p}",
+        "time": "/search/{k}/{p}",
+        "size": "/search/{k}/bysize/{p}",
+        "hot": "/search/{k}/byrequests/{p}"
+      },
+      "group": "/html/body/main/div/div[3]/div/div",
+      "magnet": "./h5/a/@href",
+      "name": "./h5/a",
+      "size": "./span[4]/b",
+      "date": "./span[2]/b",
+      "detail": {
+        "files": "//*[@id=\"wall\"]/div[6]/div[2]/ol/li"
+      },
+      "type":13,
+      "pageSize":15
+    },
+    {
+      "site": "btgg",
+      "url": "https://www.btgg.cc",
+      "paths": {
+        "preset": "/search?q={k}&p={p}"
+      },
+      "group": "//div[@class=\"item\"]",
+      "magnet": "./div[2]/a/@href",
+      "name": "./div[1]/a",
+      "size": "./div[2]/span[1]",
+      "hot": "./div[2]/span[2]",
+      "date": "./div[2]/span[3]",
+      "type": 14,
+      "pageSize":10
+    }
+  ]
+  
