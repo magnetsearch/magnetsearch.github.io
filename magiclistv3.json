@@ -35,37 +35,6 @@
       "isMix":true
     },
     {
-      "site": "cilibao",
-      "url": "http://clb0.info",
-      "paths": {
-        "time": "/s/{k}_time_{p}.html",
-        "size": "/s/{k}_size_{p}.html",
-        "preset": "/s/{k}.html"
-      },
-      "group": "//div[@class='search-item']",
-      "magnet": "./div[1]/h3[1]/a[1]/@href",
-      "name": "./div[1]/h3[1]/a[1]",
-      "size": "./div[3]/span[3]/b[1]",
-      "date": "./div[3]/span[2]/b[1]",
-      "hot": "./div[3]/span[4]/b[1]",
-      "type": 3
-    },
-    {
-      "site": "btdb",
-      "url": "https://btdb.eu",
-      "paths": {
-        "time": "?s={k}&sort=time&page={p}",
-        "preset": "?s={k}&page={p}",
-        "size": "?s={k}&sort=length&page={p}"
-      },
-      "group": "//div[@class=\"media\"]",
-      "name": "./div[1]/ul[1]/li[1]/h2/a",
-      "magnet": "./div[2]/a/@href",
-      "size": "./div[1]/ul[1]/li[1]/div[1]/small[1]",
-      "date": "./div[1]/ul[1]/li[1]/div[1]/small[5]",
-      "type": 5
-    },
-    {
       "site": "zooqle",
       "url": "https://zooqle.com",
       "paths": {
@@ -98,22 +67,6 @@
       "seeders": "./td[3]",
       "leechers": "./td[4]",
       "type": 8
-    },
-    {
-      "site": "Nyaa",
-      "url": "https://nyaa.si",
-      "group": "//div[@class='table-responsive']/table/tbody/tr",
-      "magnet": "./td[3]/a[2]/@href",
-      "name": "./td[2]/a",
-      "size": "./td[4]",
-      "date": "./td[5]",
-      "hot": "./td[8]",
-      "paths": {
-        "time": "?q=%s&p=%d",
-        "size": "?q=%s&s=size&o=desc",
-        "hot": "?q=%s&s=downloads&o=desc"
-      },
-      "type": 9
     },
     {
       "site": "ZhongZiSo",
@@ -149,26 +102,6 @@
       "pageSize" : 10
     },
     {
-      "site": "bt4g",
-      "url": "https://bt4g.unblockit.app",
-      "paths": {
-        "preset": "/search/{k}/{p}",
-        "time": "/search/{k}/{p}",
-        "size": "/search/{k}/bysize/{p}",
-        "hot": "/search/{k}/byrequests/{p}"
-      },
-      "group": "/html/body/main/div/div[3]/div/div",
-      "magnet": "./h5/a/@href",
-      "name": "./h5/a",
-      "size": "./span[4]/b",
-      "date": "./span[2]/b",
-      "detail": {
-        "files": "//*[@id=\"wall\"]/div[6]/div[2]/ol/li"
-      },
-      "type":13,
-      "pageSize":15
-    },
-    {
       "site": "btgg",
       "url": "https://www.btgg.cc",
       "paths": {
@@ -182,6 +115,58 @@
       "date": "./div[2]/span[3]",
       "type": 14,
       "pageSize":10
+    },
+    {
+      "site": "7torrents",
+      "url": "https://www.7torrents.cc",
+      "paths": {
+        "preset": "/search?query={k}",
+        "size": "?query={k}&sort=length",
+        "time": "?query={k}&sort=created"
+      },
+      "group": "//div[@class='media-body']",
+      "magnet": "./h5[1]/a[1]/@href",
+      "name": "./h5[1]/a[1]",
+      "size": "./small[1]/strong[1]",
+      "date": "./small[5]/strong[1]",
+      "seeders": "./small[3]/strong[1]",
+      "leechers": "./small[4]/strong[1]",
+      "type": 18,
+      "pageSize":20
+    },
+    {
+      "site": "extratorrent",
+      "group": "//tr[@class='tlr']",
+      "magnet": "./td[1]/a[2]/@href",
+      "name": "./td[3]/a",
+      "size": "./td[5]",
+      "date": "./td[4]",
+      "hot": "./td[6]",
+      "url": "https://extratorrent.si",
+      "paths": {
+        "preset": "/search/?page={p}&search={k}&srt=added",
+        "size": "/search/?page={p}&search={k}&srt=size&order=desc"
+      },
+      "seeders": "./td[6]",
+      "leechers": "./td[7]",
+      "type": 12,
+      "pageSize" : 15
+    },    
+    {
+      "site": "Nyaa",
+      "url": "https://nyaa.si",
+      "group": "//div[@class='table-responsive']/table/tbody/tr",
+      "magnet": "./td[3]/a[2]/@href",
+      "name": "./td[2]/a",
+      "size": "./td[4]",
+      "date": "./td[5]",
+      "hot": "./td[8]",
+      "paths": {
+        "time": "?q=%s&p=%d",
+        "size": "?q=%s&s=size&o=desc",
+        "hot": "?q=%s&s=downloads&o=desc"
+      },
+      "type": 9
     }
   ]
   
