@@ -98,24 +98,6 @@
     "pageSize":10
   },
   {
-    "site": "7torrents",
-    "url": "https://www.7torrents.cc",
-    "paths": {
-      "preset": "/search?query={k}",
-      "size": "?query={k}&sort=length",
-      "time": "?query={k}&sort=created"
-    },
-    "group": "//div[@class='media-body']",
-    "magnet": "./h5[1]/a[1]/@href",
-    "name": "./h5[1]/a[1]",
-    "size": "./small[1]/strong[1]",
-    "date": "./small[5]/strong[1]",
-    "seeders": "./small[3]/strong[1]",
-    "leechers": "./small[4]/strong[1]",
-    "type": 18,
-    "pageSize":20
-  },
-  {
     "site": "extratorrent",
     "group": "//tr[@class='tlr']",
     "magnet": "./td[1]/a[2]/@href",

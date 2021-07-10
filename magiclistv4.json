@@ -149,6 +149,24 @@
         "hot": "?q=%s&s=downloads&o=desc"
       },
       "type": 9
+    },
+    {
+      "site": "limetorrents",
+      "url": "https://www.limetorrents.info",
+      "paths": {
+        "preset": "/search/all/{k}/{p}",
+        "hot": "/register/",
+        "size": "/search/{k}/ipx/size/{p}/"
+      },
+      "group": "//tr[@bgcolor=\"#F4F4F4\"]|//tr[@bgcolor=\"#FFFFFF\"]",
+      "magnet": "./td[1]/div[1]/a[1]/@href",
+      "name": "./td[1]/div[1]/a[2]",
+      "size": "./td[3]",
+      "date": "./td[2]",
+      "seeders": "./td[4]",
+      "leechers": "./td[5]",
+      "type": 17,
+      "pageSize":40
     }
   ]
   
