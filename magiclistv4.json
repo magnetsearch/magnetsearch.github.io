@@ -51,7 +51,7 @@
     },
     {
       "site": "limetorrents",
-      "url": "https://www.limetorrents.info",
+      "url": "https://www.limetorrents.pro",
       "paths": {
         "preset": "/search/all/{k}/{p}",
         "hot": "/register/",
