@@ -1,7 +1,7 @@
 [
     {
       "site": "btsow",
-      "url": "https://btsow.shop",
+      "url": "https://btsow.us",
       "paths": {
         "preset": "/search/{k}/page/{p}"
       },
