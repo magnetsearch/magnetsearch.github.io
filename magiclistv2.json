@@ -1,7 +1,7 @@
 [
   {
     "site": "btsow",
-    "url": "https://btsow.one",
+    "url": "https://btsow1024.one",
     "paths": {
       "preset": "/search/{k}/page/{p}"
     },
@@ -17,7 +17,7 @@
   },
   {
     "site": "zooqle",
-    "url": "https://zooqle.com",
+    "url": "https://zooqle1024.com",
     "paths": {
       "preset": "/search?pg={p}&q={k}&v=t"
     },
@@ -32,7 +32,7 @@
   },
   {
     "site": "TheBay",
-    "url": "https://thepiratebay10.org",
+    "url": "https://1thepiratebay101024.org",
     "paths": {
       "preset": "/search/{k}/{p}/7/",
       "time": "/search/{k}/{p}/3/",
@@ -57,7 +57,7 @@
     "size": "./tbody/tr/td[2]/strong",
     "date": "./tbody/tr/td[1]/strong",
     "hot": "./tbody/tr[2]/td[3]/strong",
-    "url": "https://www.zhongzilou.com",
+    "url": "https://www.zhongzilou1024.com",
     "paths": {
       "time": "/list/%s/%d",
       "size": "/list_length/%s/%d",
@@ -67,7 +67,7 @@
   },
   { 
     "site": "clzz",
-    "url": "http://www.eclzz.club",
+    "url": "http://www.eclzz1024.club",
     "paths": {
       "preset": "/s/{k}_rel_{p}.html",
       "time": "/s/{k}_time_{p}.html",
@@ -84,7 +84,7 @@
   },
   {
     "site": "btgg",
-    "url": "https://www.btgg.cc",
+    "url": "https://www.btgg1024.cc",
     "paths": {
       "preset": "/search?q={k}&p={p}"
     },
@@ -105,7 +105,7 @@
     "size": "./td[5]",
     "date": "./td[4]",
     "hot": "./td[6]",
-    "url": "https://extratorrent.si",
+    "url": "https://extratorrent1024.si",
     "paths": {
       "preset": "/search/?page={p}&search={k}&srt=added",
       "size": "/search/?page={p}&search={k}&srt=size&order=desc"
@@ -117,7 +117,7 @@
   },    
   {
     "site": "Nyaa",
-    "url": "https://nyaa.si",
+    "url": "https://nyaa1024.si",
     "group": "//div[@class='table-responsive']/table/tbody/tr",
     "magnet": "./td[3]/a[2]/@href",
     "name": "./td[2]/a",

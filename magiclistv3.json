@@ -86,11 +86,11 @@
     },
     { 
       "site": "clzz",
-      "url": "http://www.eclzz.club",
+      "url": "http://www.btmovi.co",
       "paths": {
-        "preset": "/s/{k}_rel_{p}.html",
-        "time": "/s/{k}_time_{p}.html",
-        "size": "/s/{k}_size_{p}.html"
+        "preset": "/so/{k}_rel_{p}.html",
+        "time": "/so/{k}_time_{p}.html",
+        "size": "/so/{k}_size_{p}.html"
       },
       "group": "//div[@class='search-item']",
       "magnet": "./div[1]/h3[1]/a[1]/@href",

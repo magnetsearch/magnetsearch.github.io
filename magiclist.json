@@ -1,7 +1,7 @@
 [
   {
     "site": "btsow",
-    "url": "https://btsow.one",
+    "url": "https://btsow1024.one",
     "paths": {
       "preset": "/search/{k}/page/{p}"
     },
@@ -17,7 +17,7 @@
   },
   {
     "site": "cilibao",
-    "url": "http://clb0.info",
+    "url": "http://clb01024.info",
     "paths": {
       "time": "/s/{k}_time_{p}.html",
       "size": "/s/{k}_size_{p}.html",
@@ -33,7 +33,7 @@
   },
   {
     "site": "zooqle",
-    "url": "https://zooqle.com",
+    "url": "https://zooqle1024.com",
     "paths": {
       "preset": "/search?pg={p}&q={k}&v=t"
     },
@@ -48,7 +48,7 @@
   },
   {
     "site": "TheBay",
-    "url": "https://thepiratebay10.org",
+    "url": "https://thepiratebay101024.org",
     "paths": {
       "preset": "/search/{k}/{p}/7/",
       "time": "/search/{k}/{p}/3/",
@@ -73,7 +73,7 @@
     "size": "./tbody/tr/td[2]/strong",
     "date": "./tbody/tr/td[1]/strong",
     "hot": "./tbody/tr[2]/td[3]/strong",
-    "url": "https://www.zhongzilou.com",
+    "url": "https://www.zhongzilou1024.com",
     "paths": {
       "time": "/list/%s/%d",
       "size": "/list_length/%s/%d",

@@ -1,7 +1,7 @@
 [
   {
     "site": "btsow",
-    "url": "https://btsow.one",
+    "url": "https://btsow1024.one",
     "paths": {
       "preset": "/search/{k}/page/{p}"
     },
@@ -17,7 +17,7 @@
   },
   {
     "site": "cilibao",
-    "url": "http://clb0.info",
+    "url": "http://clb01024.info",
     "paths": {
       "time": "/s/{k}_time_{p}.html",
       "size": "/s/{k}_size_{p}.html",
@@ -38,7 +38,7 @@
     "name": "./div[1]/a",
     "size": "./div[2]/div[3]/div[2]",
     "date": "./div[2]/div[2]/div[2]",
-    "url": "https://idope.se",
+    "url": "https://idope1024.se",
     "paths": {
       "preset": "/torrent-list/%s/?p=%d",
       "size": "/torrent-list/%s/?p=%d&o=-2"
@@ -50,7 +50,7 @@
   },
   {
     "site": "btdb",
-    "url": "https://btdb.io",
+    "url": "https://btdb1024.io",
     "paths": {
       "time": "?s={k}&sort=time&page={p}",
       "preset": "?s={k}&page={p}",
