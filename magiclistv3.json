@@ -68,22 +68,6 @@
       "leechers": "./td[4]",
       "type": 8
     },
-    {
-      "site": "ZhongZiSo",
-      "group": "//table[@class='table table-bordered table-striped']",
-      "magnet": "./tbody/tr[1]/td/div/h4/a/@href",
-      "name": "./tbody/tr[1]/td/div/h4/a",
-      "size": "./tbody/tr/td[2]/strong",
-      "date": "./tbody/tr/td[1]/strong",
-      "hot": "./tbody/tr[2]/td[3]/strong",
-      "url": "https://www.zhongzilou.com",
-      "paths": {
-        "time": "/list/%s/%d",
-        "size": "/list_length/%s/%d",
-        "hot": "/list_click/%s/%d"
-      },
-      "type": 10
-    },
     { 
       "site": "clzz",
       "url": "http://www.btmovi.co",
