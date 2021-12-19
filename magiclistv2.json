@@ -16,25 +16,6 @@
     "type": 1
   },
   {
-    "site": "mix",
-    "url": "http://magsch.com",
-    "paths": {
-      "preset": "torrent?q={k}&cat=all&inc_wout_cat=1&exc_adult_res=0"
-    },
-    "group": "//div[@class='results']/dl",
-    "magnet": "./dt/a/@href",
-    "name": "./dt/a",
-    "size": "./dd/span[3]",
-    "hot": "./dd/span[4]",
-    "date": "./dd/span[2]",
-    "seeders": "./dd/span[4]",
-    "leechers": "./dd/span[5]",
-    "type": 16,
-    "pageSize":100,
-    "searchUrl":"https://torrzapp.techpeg.in",
-    "isMix":true
-  },
-  {
     "site": "zooqle",
     "url": "https://zooqle1024.com",
     "paths": {
