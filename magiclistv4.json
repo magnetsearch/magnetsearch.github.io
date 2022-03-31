@@ -16,6 +16,23 @@
       "type": 1
     },
     {
+      "site": "sevenTorrents",
+      "group": "//tr[@class='row']",
+      "magnet": "./td[1]/div[2]/a[1]/@href",
+      "name": "./td[1]/div[2]/a[1]",
+      "size": "./td[2]",
+      "date": "./td[3]",
+      "hot": "./td[5]",
+      "url": "https://seventorrents.unblockit.day",
+      "paths": {
+          "preset": "/search?q={k}&&p={p}"
+        },
+      "seeders": "./td[4]",
+      "leechers": "./td[5]",
+      "type": 19,
+      "pageSize" : 30
+    },
+    {
       "site": "zooqle",
       "url": "https://zooqle.com",
       "paths": {
