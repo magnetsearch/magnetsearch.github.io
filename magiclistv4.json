@@ -16,6 +16,23 @@
       "type": 1
     },
     {
+      "site": "solidtorrents",
+      "group": "//li[@class=\"card search-result my-2\"]",  
+      "magnet": "./div[2]/a[2]/@href",
+      "name": "./div[1]/div[1]/h5[1]/a[1]",
+      "size": "./div[1]/div[1]/div[1]/div[1]/div[2]",
+      "date": "./div[1]/div[1]/div[1]/div[1]/div[5]",
+      "hot": "./div[1]/div[1]/div[1]/div[1]/div[1]",
+      "url": "https://solidtorrents.to",
+      "paths": {
+        "preset": "/search?q={k}&page={p}"
+      },
+      "seeders": "./div[1]/div[1]/div[1]/div[1]/div[3]/font[1]",
+      "leechers": "./div[1]/div[1]/div[1]/div[1]/div[4]/font[1]",
+      "type": 20,
+      "pageSize": 20
+    },
+    {
       "site": "sevenTorrents",
       "group": "//tr[@class='row']",
       "magnet": "./td[1]/div[2]/a[1]/@href",
