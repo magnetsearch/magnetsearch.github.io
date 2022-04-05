@@ -16,6 +16,25 @@
       "type": 1
     },
     {
+      "site": "mix",
+      "url": "http://magsch.com",
+      "paths": {
+        "preset": "/api/v1/all/search?query={k}"
+      },
+      "group": "//div[@class='results']/dl",
+      "magnet": "./dt/a/@href",
+      "name": "./dt/a",
+      "size": "./dd/span[3]",
+      "hot": "./dd/span[4]",
+      "date": "./dd/span[2]",
+      "seeders": "./dd/span[4]",
+      "leechers": "./dd/span[5]",
+      "type": 16,
+      "pageSize":100,
+      "searchUrl":"http://magnetsearch.live",
+      "isMix":true
+    },
+    {
       "site": "solidtorrents",
       "group": "//li[@class=\"card search-result my-2\"]",  
       "magnet": "./div[2]/a[2]/@href",
@@ -132,25 +151,7 @@
       "date": "./div[2]/span[3]",
       "type": 14,
       "pageSize":10
-    },
-    {
-      "site": "extratorrent",
-      "group": "//tr[@class='tlr']",
-      "magnet": "./td[1]/a[2]/@href",
-      "name": "./td[3]/a",
-      "size": "./td[5]",
-      "date": "./td[4]",
-      "hot": "./td[6]",
-      "url": "https://extratorrent.si",
-      "paths": {
-        "preset": "/search/?page={p}&search={k}&srt=added",
-        "size": "/search/?page={p}&search={k}&srt=size&order=desc"
-      },
-      "seeders": "./td[6]",
-      "leechers": "./td[7]",
-      "type": 12,
-      "pageSize" : 15
-    },    
+    },   
     {
       "site": "Nyaa",
       "url": "https://nyaa.si",
