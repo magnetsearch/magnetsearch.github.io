@@ -136,22 +136,7 @@
       "hot": "./div[3]/span[4]/b[1]",
       "type": 11,
       "pageSize" : 10
-    },
-    {
-      "site": "btgg",
-      "url": "https://www.btgg.cc",
-      "paths": {
-        "preset": "/search?q={k}&p={p}"
-      },
-      "group": "//div[@class=\"item\"]",
-      "magnet": "./div[2]/a/@href",
-      "name": "./div[1]/a",
-      "size": "./div[2]/span[1]",
-      "hot": "./div[2]/span[2]",
-      "date": "./div[2]/span[3]",
-      "type": 14,
-      "pageSize":10
-    },   
+    },  
     {
       "site": "Nyaa",
       "url": "https://nyaa.si",
