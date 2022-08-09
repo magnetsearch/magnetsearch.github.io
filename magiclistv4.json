@@ -69,23 +69,8 @@
       "pageSize" : 30
     },
     {
-      "site": "zooqle",
-      "url": "https://zooqle.com",
-      "paths": {
-        "preset": "/search?pg={p}&q={k}&v=t"
-      },
-      "group": "//div[@class='panel-body']/table[1]/tbody/tr",
-      "magnet": "./td[3]/ul/li[2]/a/@href",
-      "name": "./td[2]/a",
-      "size": ".//td[4]/div/div",
-      "date": "./td[5]",
-      "seeders": "./td[6]/div/div[1]",
-      "leechers": "./td[6]/div/div[2]",
-      "type": 7
-    },
-    {
       "site": "limetorrents",
-      "url": "https://www.limetorrents.pro",
+      "url": "https://www.limetorrents.co",
       "paths": {
         "preset": "/search/all/{k}/{p}",
         "hot": "/register/",
