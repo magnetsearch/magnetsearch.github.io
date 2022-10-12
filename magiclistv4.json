@@ -1,7 +1,7 @@
 [
     {
       "site": "btsow",
-      "url": "https://btsow.cfd",
+      "url": "https://btsow.sbs",
       "paths": {
         "preset": "/search/{k}/page/{p}"
       },
