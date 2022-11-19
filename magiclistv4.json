@@ -105,8 +105,8 @@
       "type": 9
     },
     {
-      "site": "clzz",
-      "url": "http://www.btmovi.co",
+      "site": "btmovi",
+      "url": "http://www.btmovi.org",
       "paths": {
         "preset": "/so/{k}_rel_{p}.html",
         "time": "/so/{k}_time_{p}.html",
@@ -119,7 +119,7 @@
       "date": "./div[3]/span[2]/b[1]",
       "hot": "./div[3]/span[4]/b[1]",
       "type": 11,
-      "pageSize" : 10
+      "pageSize": 10
     }
   ]
   
