@@ -52,23 +52,6 @@
       "pageSize": 20
     },
     {
-      "site": "sevenTorrents",
-      "group": "//tr[@class='row']",
-      "magnet": "./td[1]/div[2]/a[1]/@href",
-      "name": "./td[1]/div[2]/a[1]",
-      "size": "./td[2]",
-      "date": "./td[3]",
-      "hot": "./td[5]",
-      "url": "https://seventorrents.unblockit.day",
-      "paths": {
-          "preset": "/search?q={k}&&p={p}"
-        },
-      "seeders": "./td[4]",
-      "leechers": "./td[5]",
-      "type": 19,
-      "pageSize" : 30
-    },
-    {
       "site": "limetorrents",
       "url": "https://www.limetorrents.co",
       "paths": {
@@ -120,6 +103,23 @@
         "hot": "?q=%s&s=downloads&o=desc"
       },
       "type": 9
+    },
+    {
+      "site": "clzz",
+      "url": "http://www.btmovi.co",
+      "paths": {
+        "preset": "/so/{k}_rel_{p}.html",
+        "time": "/so/{k}_time_{p}.html",
+        "size": "/so/{k}_size_{p}.html"
+      },
+      "group": "//div[@class='search-item']",
+      "magnet": "./div[1]/h3[1]/a[1]/@href",
+      "name": "./div[1]/h3[1]/a[1]",
+      "size": "./div[3]/span[3]/b[1]",
+      "date": "./div[3]/span[2]/b[1]",
+      "hot": "./div[3]/span[4]/b[1]",
+      "type": 11,
+      "pageSize" : 10
     }
   ]
   
