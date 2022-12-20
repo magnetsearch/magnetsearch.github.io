@@ -17,7 +17,7 @@
     },
     {
       "site": "mix",
-      "url": "http://magsch.com",
+      "url": "https://bing.com",
       "paths": {
         "preset": "torrent?q={k}&cat=all&inc_wout_cat=1&exc_adult_res=0"
       },
