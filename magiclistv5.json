@@ -1,7 +1,7 @@
 [
     {
       "site": "btsow",
-      "url": "https://btsow.mom",
+      "url": "https://btsow.boats",
       "paths": {
         "preset": "/search/{k}/page/{p}"
       },
@@ -123,7 +123,7 @@
     },
     {
       "site": "mix2",
-      "url": "http://magnetsearch.live",
+      "url": "http://magnetsearch.org",
       "paths": {
         "preset": "/api/v1/all/search?query={k}"
       },
@@ -137,7 +137,7 @@
       "leechers": "./dd/span[5]",
       "type": 21,
       "pageSize": 100,
-      "searchUrl": "http://magnetsearch.live",
+      "searchUrl": "http://magnetsearch.org",
       "isMix": true
     }
   ]
