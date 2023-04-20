@@ -139,6 +139,20 @@
       "pageSize": 100,
       "searchUrl": "http://magnetsearch.org",
       "isMix": true
+    },
+    {
+      "site": "torrentkitty",
+      "url": "https://www.torrentkitty.red",
+      "paths": {
+        "preset": "/search/{k}/{p}"
+      },
+      "group": "//table[@id='archiveResult']/tbody/tr",
+      "magnet": "./td[4]/a[2]/@href",
+      "name": "./td[1]",
+      "size": "./td[2]",
+      "date": "./td[3]",
+      "type": 22,
+      "pageSize": 20
     }
   ]
   
