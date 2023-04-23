@@ -153,6 +153,22 @@
       "date": "./td[3]",
       "type": 22,
       "pageSize": 20
+    },
+    {
+      "site": "torrentz2",
+      "url": "https://torrentz2.nz",
+      "paths": {
+        "preset": "/search?q={k}&page={p}"
+      },
+      "group": "//div[@class='results']/dl",
+      "magnet": "./dd[1]/span[1]/a[1]/@href",
+      "name": "./dt[1]/a[1]",
+      "size": "./dd[1]/span[3]",
+      "date": "./dd[1]/span[2]",
+      "seeders": "./dd[1]/span[4]",
+      "leechers": "./dd[1]/span[5]",
+      "type": 23,
+      "pageSize": 50
     }
   ]
   
