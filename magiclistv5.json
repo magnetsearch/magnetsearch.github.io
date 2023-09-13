@@ -17,9 +17,9 @@
     },
     {
       "site": "mix",
-      "url": "https://bing.com",
+      "url": "http://magnetsearch.org",
       "paths": {
-        "preset": "torrent?q={k}&cat=all&inc_wout_cat=1&exc_adult_res=0"
+        "preset": "/api/v1/all/search?query={k}"
       },
       "group": "//div[@class='results']/dl",
       "magnet": "./dt/a/@href",
@@ -29,10 +29,10 @@
       "date": "./dd/span[2]",
       "seeders": "./dd/span[4]",
       "leechers": "./dd/span[5]",
-      "type": 16,
+      "type": 21,
       "pageSize": 100,
-      "searchUrl": "https://torrzapp.techpeg.in",
-      "isMix":true
+      "searchUrl": "http://magnetsearch.org",
+      "isMix": true
     },
     {
       "site": "solidtorrents",
@@ -123,9 +123,9 @@
     },
     {
       "site": "mix2",
-      "url": "http://magnetsearch.org",
+      "url": "https://bing.com",
       "paths": {
-        "preset": "/api/v1/all/search?query={k}"
+        "preset": "torrent?q={k}&cat=all&inc_wout_cat=1&exc_adult_res=0"
       },
       "group": "//div[@class='results']/dl",
       "magnet": "./dt/a/@href",
@@ -135,10 +135,10 @@
       "date": "./dd/span[2]",
       "seeders": "./dd/span[4]",
       "leechers": "./dd/span[5]",
-      "type": 21,
+      "type": 16,
       "pageSize": 100,
-      "searchUrl": "http://magnetsearch.org",
-      "isMix": true
+      "searchUrl": "https://torrzapp.techpeg.in",
+      "isMix":true
     },
     {
       "site": "torrentkitty",
