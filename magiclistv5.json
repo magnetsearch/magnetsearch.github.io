@@ -17,7 +17,7 @@
     },
     {
       "site": "mix",
-      "url": "http://magnetsearch.org",
+      "url": "https://magnetsearch.org",
       "paths": {
         "preset": "/api/v1/all/search?query={k}"
       },
@@ -31,7 +31,7 @@
       "leechers": "./dd/span[5]",
       "type": 21,
       "pageSize": 100,
-      "searchUrl": "http://magnetsearch.org",
+      "searchUrl": "https://magnetsearch.org",
       "isMix": true
     },
     {
