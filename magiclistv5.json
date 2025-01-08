@@ -1,174 +1,228 @@
 [
-    {
-      "site": "btsow",
-      "url": "https://btsow.motorcycles",
-      "paths": {
-        "preset": "/search/{k}/page/{p}"
-      },
-      "group": "//div[@class='row']",
-      "magnet": "./a/@href",
-      "name": "./a/div[1]",
-      "size": "./div[1]",
-      "date": "./div[2]",
-      "detail": {
-        "files": "//div[@class=\"detail data-list\"]/div/text()"
-      },
-      "type": 1
+  {
+    "site": "btsow",
+    "url": "https://btsow.motorcycles",
+    "paths": {
+      "preset": "/search/{k}/page/{p}"
     },
-    {
-      "site": "mix",
-      "url": "https://magnetsearch.org",
-      "paths": {
-        "preset": "/api/v1/all/search?query={k}"
-      },
-      "group": "//div[@class='results']/dl",
-      "magnet": "./dt/a/@href",
-      "name": "./dt/a",
-      "size": "./dd/span[3]",
-      "hot": "./dd/span[4]",
-      "date": "./dd/span[2]",
-      "seeders": "./dd/span[4]",
-      "leechers": "./dd/span[5]",
-      "type": 21,
-      "pageSize": 100,
-      "searchUrl": "https://magnetsearch.org",
-      "isMix": true
+    "group": "//div[@class='row']",
+    "magnet": "./a/@href",
+    "name": "./a/div[1]",
+    "size": "./div[1]",
+    "date": "./div[2]",
+    "detail": {
+      "files": "//div[@class=\"detail data-list\"]/div/text()"
     },
-    {
-      "site": "solidtorrents",
-      "group": "//li[@class=\"card search-result my-2\"]",  
-      "magnet": "./div[2]/a[2]/@href",
-      "name": "./div[1]/div[1]/h5[1]/a[1]",
-      "size": "./div[1]/div[1]/div[1]/div[1]/div[2]",
-      "date": "./div[1]/div[1]/div[1]/div[1]/div[5]",
-      "hot": "./div[1]/div[1]/div[1]/div[1]/div[1]",
-      "url": "https://solidtorrents.to",
-      "paths": {
-        "preset": "/search?q={k}&page={p}"
-      },
-      "seeders": "./div[1]/div[1]/div[1]/div[1]/div[3]/font[1]",
-      "leechers": "./div[1]/div[1]/div[1]/div[1]/div[4]/font[1]",
-      "type": 20,
-      "pageSize": 20
+    "type": 1
+  },
+  {
+    "site": "mix",
+    "url": "https://magnetsearch.org",
+    "paths": {
+      "preset": "/api/v1/all/search?query={k}"
     },
-    {
-      "site": "limetorrents",
-      "url": "https://www.limetorrents.co",
-      "paths": {
-        "preset": "/search/all/{k}/{p}",
-        "hot": "/register/",
-        "size": "/search/{k}/ipx/size/{p}/"
-      },
-      "group": "//tr[@bgcolor=\"#F4F4F4\"]|//tr[@bgcolor=\"#FFFFFF\"]",
-      "magnet": "./td[1]/div[1]/a[1]/@href",
-      "name": "./td[1]/div[1]/a[2]",
-      "size": "./td[3]",
-      "date": "./td[2]",
-      "seeders": "./td[4]",
-      "leechers": "./td[5]",
-      "type": 17,
-      "pageSize":40
+    "group": "//div[@class='results']/dl",
+    "magnet": "./dt/a/@href",
+    "name": "./dt/a",
+    "size": "./dd/span[3]",
+    "hot": "./dd/span[4]",
+    "date": "./dd/span[2]",
+    "seeders": "./dd/span[4]",
+    "leechers": "./dd/span[5]",
+    "type": 21,
+    "pageSize": 100,
+    "searchUrl": "https://magnetsearch.org",
+    "isMix": true
+  },
+  {
+    "site": "solidtorrents",
+    "group": "//li[@class=\"card search-result my-2\"]",
+    "magnet": "./div[2]/a[2]/@href",
+    "name": "./div[1]/div[1]/h5[1]/a[1]",
+    "size": "./div[1]/div[1]/div[1]/div[1]/div[2]",
+    "date": "./div[1]/div[1]/div[1]/div[1]/div[5]",
+    "hot": "./div[1]/div[1]/div[1]/div[1]/div[1]",
+    "url": "https://solidtorrents.to",
+    "paths": {
+      "preset": "/search?q={k}&page={p}"
     },
-    {
-      "site": "TheBay",
-      "url": "https://thepiratebay10.org",
-      "paths": {
-        "preset": "/search/{k}/{p}/7/",
-        "time": "/search/{k}/{p}/3/",
-        "size": "/search/{k}/{p}/5/",
-        "hot": "/search/{k}/{p}/9/"
-      },
-      "group": "//table[@id='searchResult']/tbody/tr",
-      "magnet": "./td[2]/a[1]/@href",
-      "name": "./td[2]/div/a",
-      "size": "./td[2]/font/text()",
-      "date": "./td[2]/font/text()",
-      "hot": "./td[4]",
-      "seeders": "./td[3]",
-      "leechers": "./td[4]",
-      "type": 8
+    "seeders": "./div[1]/div[1]/div[1]/div[1]/div[3]/font[1]",
+    "leechers": "./div[1]/div[1]/div[1]/div[1]/div[4]/font[1]",
+    "type": 20,
+    "pageSize": 20
+  },
+  {
+    "site": "limetorrents",
+    "url": "https://www.limetorrents.co",
+    "paths": {
+      "preset": "/search/all/{k}/{p}",
+      "hot": "/register/",
+      "size": "/search/{k}/ipx/size/{p}/"
     },
-    {
-      "site": "Nyaa",
-      "url": "https://nyaa.si",
-      "group": "//div[@class='table-responsive']/table/tbody/tr",
-      "magnet": "./td[3]/a[2]/@href",
-      "name": "./td[2]/a",
-      "size": "./td[4]",
-      "date": "./td[5]",
-      "hot": "./td[8]",
-      "paths": {
-        "time": "?q=%s&p=%d",
-        "size": "?q=%s&s=size&o=desc",
-        "hot": "?q=%s&s=downloads&o=desc"
-      },
-      "type": 9
+    "group": "//tr[@bgcolor=\"#F4F4F4\"]|//tr[@bgcolor=\"#FFFFFF\"]",
+    "magnet": "./td[1]/div[1]/a[1]/@href",
+    "name": "./td[1]/div[1]/a[2]",
+    "size": "./td[3]",
+    "date": "./td[2]",
+    "seeders": "./td[4]",
+    "leechers": "./td[5]",
+    "type": 17,
+    "pageSize":40
+  },
+  {
+    "site": "TheBay",
+    "url": "https://thepiratebay10.org",
+    "paths": {
+      "preset": "/search/{k}/{p}/7/",
+      "time": "/search/{k}/{p}/3/",
+      "size": "/search/{k}/{p}/5/",
+      "hot": "/search/{k}/{p}/9/"
     },
-    {
-      "site": "btmovi",
-      "url": "http://www.btmovi.org",
-      "paths": {
-        "preset": "/so/{k}_rel_{p}.html",
-        "time": "/so/{k}_time_{p}.html",
-        "size": "/so/{k}_size_{p}.html"
-      },
-      "group": "//div[@class='search-item']",
-      "magnet": "./div[1]/h3[1]/a[1]/@href",
-      "name": "./div[1]/h3[1]/a[1]",
-      "size": "./div[3]/span[3]/b[1]",
-      "date": "./div[3]/span[2]/b[1]",
-      "hot": "./div[3]/span[4]/b[1]",
-      "type": 11,
-      "pageSize": 10
+    "group": "//table[@id='searchResult']/tbody/tr",
+    "magnet": "./td[4]/nobr/a[1]/@href",
+    "name": "./td[2]/a",
+    "size": "./td[5]",
+    "date": "./td[3]",
+    "hot": "./td[4]",
+    "seeders": "./td[6]",
+    "leechers": "./td[7]",
+    "type": 8
+  },
+  {
+    "site": "Nyaa",
+    "url": "https://nyaa.si",
+    "group": "//div[@class='table-responsive']/table/tbody/tr",
+    "magnet": "./td[3]/a[2]/@href",
+    "name": "./td[2]/a",
+    "size": "./td[4]",
+    "date": "./td[5]",
+    "hot": "./td[8]",
+    "paths": {
+      "time": "?q=%s&p=%d",
+      "size": "?q=%s&s=size&o=desc",
+      "hot": "?q=%s&s=downloads&o=desc"
     },
-    {
-      "site": "mix2",
-      "url": "https://bing.com",
-      "paths": {
-        "preset": "torrent?q={k}&cat=all&inc_wout_cat=1&exc_adult_res=0"
-      },
-      "group": "//div[@class='results']/dl",
-      "magnet": "./dt/a/@href",
-      "name": "./dt/a",
-      "size": "./dd/span[3]",
-      "hot": "./dd/span[4]",
-      "date": "./dd/span[2]",
-      "seeders": "./dd/span[4]",
-      "leechers": "./dd/span[5]",
-      "type": 16,
-      "pageSize": 100,
-      "searchUrl": "https://torrzapp.techpeg.in",
-      "isMix":true
+    "type": 9
+  },
+  {
+    "site": "btmovi",
+    "url": "http://www.btmovi.org",
+    "paths": {
+      "preset": "/so/{k}_rel_{p}.html",
+      "time": "/so/{k}_time_{p}.html",
+      "size": "/so/{k}_size_{p}.html"
     },
-    {
-      "site": "torrentkitty",
-      "url": "https://www.torrentkitty.red",
-      "paths": {
-        "preset": "/search/{k}/{p}"
-      },
-      "group": "//table[@id='archiveResult']/tbody/tr",
-      "magnet": "./td[4]/a[2]/@href",
-      "name": "./td[1]",
-      "size": "./td[2]",
-      "date": "./td[3]",
-      "type": 22,
-      "pageSize": 20
+    "group": "//div[@class='search-item']",
+    "magnet": "./div[1]/h3[1]/a[1]/@href",
+    "name": "./div[1]/h3[1]/a[1]",
+    "size": "./div[3]/span[3]/b[1]",
+    "date": "./div[3]/span[2]/b[1]",
+    "hot": "./div[3]/span[4]/b[1]",
+    "type": 11,
+    "pageSize": 10
+  },
+  {
+    "site": "secondMix",
+    "url": "https://bing.com",
+    "paths": {
+      "preset": "torrent?q={k}&cat=all&inc_wout_cat=1&exc_adult_res=0"
     },
-    {
-      "site": "torrentz2",
-      "url": "https://torrentz2.nz",
-      "paths": {
-        "preset": "/search?q={k}&page={p}"
-      },
-      "group": "//div[@class='results']/dl",
-      "magnet": "./dd[1]/span[1]/a[1]/@href",
-      "name": "./dt[1]/a[1]",
-      "size": "./dd[1]/span[3]",
-      "date": "./dd[1]/span[2]",
-      "seeders": "./dd[1]/span[4]",
-      "leechers": "./dd[1]/span[5]",
-      "type": 23,
-      "pageSize": 50
-    }
-  ]
+    "group": "//div[@class='results']/dl",
+    "magnet": "./dt/a/@href",
+    "name": "./dt/a",
+    "size": "./dd/span[3]",
+    "hot": "./dd/span[4]",
+    "date": "./dd/span[2]",
+    "seeders": "./dd/span[4]",
+    "leechers": "./dd/span[5]",
+    "type": 16,
+    "pageSize": 100,
+    "searchUrl": "https://torrzapp.techpeg.in",
+    "isMix":true
+  },
+  {
+    "site": "torrentkitty",
+    "url": "https://www.torrentkitty.red",
+    "paths": {
+      "preset": "/search/{k}/{p}"
+    },
+    "group": "//table[@id='archiveResult']/tbody/tr",
+    "magnet": "./td[4]/a[2]/@href",
+    "name": "./td[1]",
+    "size": "./td[2]",
+    "date": "./td[3]",
+    "type": 22,
+    "pageSize": 20
+  },
+  {
+    "site": "torrentz2",
+    "url": "https://torrentz2.nz",
+    "paths": {
+      "preset": "/search?q={k}&page={p}"
+    },
+    "group": "//div[@class='results']/dl",
+    "magnet": "./dd[1]/span[1]/a[1]/@href",
+    "name": "./dt[1]/a[1]",
+    "size": "./dd[1]/span[3]",
+    "date": "./dd[1]/span[2]",
+    "seeders": "./dd[1]/span[4]",
+    "leechers": "./dd[1]/span[5]",
+    "type": 23,
+    "pageSize": 50
+  },
+  {
+    "site": "1337x",
+    "url": "https://1337xx.to",
+    "paths": {
+      "preset": "/search/{k}/{p}"
+    },
+    "group": "//table[@class='table-list table table-responsive table-striped']/tbody/tr",
+    "magnet": "./td[5]",
+    "name": "./td[1]/a[2]",
+    "size": "./td[5]",
+    "date": "./td[4]",
+    "seeders": "./td[2]",
+    "leechers": "./td[3]",
+    "detail": {
+      "magnet" : "//div[@class='col-9 page-content']/div[1]/div[2]/div[1]/ul/li[1]/a/@href"
+    },
+    "type": 24,
+    "pageSize": 20
+  },
+  {
+    "site": "BitSearch",
+    "url": "https://bitsearch.to",
+    "paths": {
+      "preset": "/search?q={k}&page={p}"
+    },
+    "group": "//li[@class='card search-result my-2']",
+    "magnet": ".//a[contains(@href, 'magnet:?xt=')]/@href",
+    "name": ".//h5[@class='title w-100 truncate']/a",
+    "size": ".//div[@class='stats']/div[img[@src='/icons/size.svg']]",
+    "date": ".//div[@class='stats']/div[img[@src='/icons/calendar.svg']]",
+    "seeders": "//div[@class='stats']/div[img[@src='/icons/seeder.svg']]/font",
+    "leechers": ".//div[@class='stats']/div[img[@src='/icons/leacher.svg']]/font",
+    "type": 27,
+    "pageSize": 20
+  },
+  {
+    "site": "RARBG",
+    "url": "https://rargb.to",
+    "paths": {
+      "preset": "/search/?search={k}&page={p}"
+    },
+    "group": "//tr[@class='lista2']",
+    "magnet": ".//td[5]",
+    "name": ".//a[starts-with(@href, '/torrent/')]",
+    "size": ".//td[5]",
+    "date": ".//td[4]",
+    "seeders": ".//td[6]/font",
+    "leechers": ".//td[7]",
+    "detail": {
+      "magnet": "//a[contains(@href, 'magnet:?') and contains(@onmouseover, 'Click here to download torrent')]/@href"
+    },
+    "type": 29,
+    "pageSize": 20
+  }
+]
   
